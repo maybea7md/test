@@ -4,7 +4,7 @@ $("#messageState").on("change", (x) => {
 		$(".message").removeClass("closed").removeClass("no-anim").addClass("openNor");
 		$(".heart").removeClass("closeHer").removeClass("openedHer").addClass("openHer");
 		$(".container").stop().animate({"backgroundColor": "#f48fb1"}, 2000);
-		console.log("Abrindo");
+		console.log("Abrindo")
 	} else {
 		$(".message").removeClass("no-anim").addClass("closeNor");
 		$(".heart").removeClass("openHer").removeClass("openedHer").addClass("closeHer");
